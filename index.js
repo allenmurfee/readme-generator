@@ -8,32 +8,42 @@ const questions = [
   {
     type: "input",
     message: "Enter your project title.",
-    name: title,
+    name: "title",
   },
   {
     type: "input",
     message: "Enter your project description.",
-    name: description,
+    name: "description",
   },
   {
     type: "input",
     message: "Enter your project installation instructions.",
-    name: install,
+    name: "install",
   },
   {
     type: "input",
     message: "Enter your project usage information.",
-    name: usage,
+    name: "usage",
   },
   {
     type: "input",
     message: "Enter your project contribution guidelines.",
-    name: contribution,
+    name: "contribution",
   },
   {
     type: "input",
     message: "Enter your project test instructions.",
-    name: test,
+    name: "test",
+  },
+  {
+    type: "input",
+    message: "Enter your GitHub username",
+    name: "github",
+  },
+  {
+    type: "input",
+    message: "Enter your email address.",
+    name: "email",
   },
 ];
 
@@ -41,7 +51,11 @@ const questions = [
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer.prompt(questions).then((response) => {
+    console.log("Generating README...");
+  });
+}
 
 // Function call to initialize app
 init();
