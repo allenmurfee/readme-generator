@@ -5,7 +5,7 @@
 
   ## License
 
-  // Need to add license info
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of Contents
   - [Installation](#installation)
@@ -13,6 +13,7 @@
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
+  - [License](#license)
 
   ## Installation
 
@@ -34,3 +35,7 @@
   GitHub: https://github.com/test
 
   You can also reach me at test with any additional questions.
+
+  ## License
+
+MIT License

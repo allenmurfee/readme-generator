@@ -16,6 +16,12 @@ const questions = [
     name: "description",
   },
   {
+    type: "list",
+    message: "Which license is your project under?",
+    name: "license",
+    choices: ["MIT License", "Apache", "GPL 3.0"]
+  },
+  {
     type: "input",
     message: "Enter your project installation instructions.",
     name: "install",
