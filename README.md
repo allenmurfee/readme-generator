@@ -12,7 +12,7 @@ To install this project, please download the GitHub repository.
 
 ## Usage
 
-After, installing the GitHub repository, right click on the "index.js" file in VS Code (or whatever program you're using) and open it in the integrated terminal. Type in "node index" and the terminal will begin the process.
+After installing the GitHub repository, right click on the "index.js" file in VS Code (or whatever program you're using) and open it in the integrated terminal. Type in "node index" and the terminal will begin the process.
 
 ![Project screenshot](/assets/screenshot.png)
 
