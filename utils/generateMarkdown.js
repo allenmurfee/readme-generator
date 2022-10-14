@@ -41,8 +41,6 @@ function generateMarkdown(data) {
 
   ${data.description}
 
-  ## License
-
   ${renderLicenseBadge(data.license)}
 
   ## Table of Contents
@@ -74,7 +72,9 @@ function generateMarkdown(data) {
 
   You can also reach me at ${data.email} with any additional questions.
 
-  ${renderLicenseSection(data.license)}
+  This project is covered under the ${renderLicenseSection(
+    data.license
+  )}. Click the license name text to learn more. 
 `;
 }
 
