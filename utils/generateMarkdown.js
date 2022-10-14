@@ -23,11 +23,13 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   var text = "";
   if (license === "MIT License") {
-    text = "## License\n\nMIT License";
+    text = "## License\n\n[MIT License](https://opensource.org/licenses/MIT)";
   } else if (license === "Apache") {
-    text = "## License\n\nApache";
+    text =
+      "## License\n\n[Apache License](https://opensource.org/licenses/Apache-2.0)";
   } else if (license === "GPL 3.0") {
-    text = "## License\n\nGPL 3.0";
+    text =
+      "## License\n\n[GPL 3.0 License]https://www.gnu.org/licenses/gpl-3.0)";
   }
   return text;
 }
