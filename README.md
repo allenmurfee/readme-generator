@@ -16,6 +16,10 @@ After installing the GitHub repository, right click on the "index.js" file in VS
 
 ![Project screenshot](/assets/screenshot.png)
 
+Additionally, here is a tutorial video to demonstrate how the application works.
+
+![Tutorial video](/assets/README%20generator%20tutorial%20video.mov)
+
 ## Credits
 
 https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba for license images and links.
