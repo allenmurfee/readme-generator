@@ -23,7 +23,8 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   var text = "";
   if (license === "MIT License") {
-    text = "## License\n\n[MIT License](https://opensource.org/licenses/MIT)";
+    text =
+      "## License\n\nThis project is covered under the [MIT License](https://opensource.org/licenses/MIT). Click the license text to learn more.";
   } else if (license === "Apache") {
     text =
       "## License\n\n[Apache License](https://opensource.org/licenses/Apache-2.0)";
@@ -72,9 +73,7 @@ function generateMarkdown(data) {
 
   You can also reach me at ${data.email} with any additional questions.
 
-  This project is covered under the ${renderLicenseSection(
-    data.license
-  )}. Click the license name text to learn more. 
+  ${renderLicenseSection(data.license)}.
 `;
 }
 
